@@ -1,0 +1,523 @@
+*{box-sizing: border-box;
+
+}
+body{
+    width: 80%;
+    min-height: 600px;
+    margin: auto;
+    border: 1px solid rgb(223, 215, 215);
+}
+
+.container header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    line-height: 40px;
+}
+.container header li{
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.container .navigation{
+    width: 100%;
+    height: 50px;
+    background-color:#272822 ;
+    color: #fff;
+}
+.navigation li{
+ width: 100px;
+ height: 90%;
+ display: inline-block;
+ vertical-align: top;
+ text-align: center;
+ padding-top: 18px;
+ color: #fff;
+ margin-left: 20px;
+ }
+.navigation li a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    list-style: square;
+    padding-left: -40px;
+}
+
+.navigation span li{
+    color: yellow;
+
+}
+.navigation i{
+    margin: 10px;
+    float: right;
+    margin-top: 20px;
+}
+.container legend{
+    min-width: 99.5%;
+    min-height: 700px;
+    color: #fff;
+    background-image: url("punch\ images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.container legend  li{
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 350px;
+    font-size: 180px;
+    list-style-type: none;
+}
+ .container legend h3{
+     text-align: center;
+     font-size: 15px;
+ }
+ .container legend span{
+     width: 150px;
+     height: 40px;
+     color: #000;
+   display: inline-block;
+   vertical-align: top;
+   border-radius:6px;
+   padding-top:10px; 
+   text-align: center;
+     background-color: yellow;
+     margin-left: 520px;
+ }
+ .container legend span:hover{
+     width: 150px;
+     height: 40px;
+     background-color: blue;
+   border-radius: 3px;
+   cursor: pointer;
+   color: #fff;
+}
+
+.container fieldset{
+    width: 97%;
+    min-height: 600px;
+    margin: auto;
+    border: none;
+    text-align: center;
+    display: inline-block;
+   
+}
+.container fieldset img{
+    width: 38%px;
+    height: 200px;
+    margin-left: -0px;
+    display: inline-block;
+    
+}
+.car{
+    width: 100px;
+    height: 130px;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: rgb(241, 241, 8);
+    color: white;
+    padding: 21px;
+    box-shadow: 1px  1px rgb(170, 167, 167);
+}
+.car1{
+    width: 100px;
+    height: 130px; 
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+    padding: 5px;
+    margin-left: -4px;
+    color: white;
+    box-shadow: 1px  1px rgb(170, 167, 167);
+}
+.car1 span{
+    color: black;
+}
+.car2{
+    width: 100px;
+    height: 130px;
+    display: inline-block;
+    background-color: gray;
+    padding: 5px;
+    margin-left: -4px;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(170, 167, 167);
+}
+.car2 span{
+    color: black;
+}
+.car3{
+    width: 100px;
+    height: 130px;
+    display: inline-block;
+    background-color: gray;
+    padding: 5px;
+    margin-left: -4px;
+    color: white;
+    box-shadow: 1px 1px 1px rgb(170, 167, 167);
+}
+
+.car3 span{
+    color: #000;
+}
+.con{
+
+    width: 43%;
+    margin-left: 660px;
+   min-height:300px;
+    margin-top: -300px;
+    
+}
+.con img{
+    width: 40%;
+    height: 40px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px rgb(170, 167, 167);
+}
+
+.can{
+    width: 40%;
+    height: 300px;
+    margin-left: 170px;
+    
+}
+.can img{
+    box-shadow: 1px 1px 1px 1px rgb(170, 167, 167);
+}
+
+.container article{
+    width: 100%;
+    min-height: 300px;
+    background-color: #f2f2f2;
+    margin: auto;
+}
+.container article h1{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    padding: 20px;
+}
+.container article section1{
+    width: 20%;
+   height: 200px;
+   display: inline-block;
+   vertical-align: top;
+   color: #b9b9b9;
+   list-style-type: none;
+  margin-left: 130px;
+}
+.container article section1 i{
+ margin-left: 50px;
+}
+
+.container article section2 i{
+    margin-left: 50px;
+   }
+   .container article section3 i{
+    margin-left: 50px;
+   }
+   .container article section4 i{
+    margin-left: 50px;
+   }
+.container article section2{
+    width: 20%;
+   height: 200px;
+   display: inline-block;
+   vertical-align: top;
+   color: #b9b9b9;
+   list-style-type: none;
+   
+}
+
+.container article section3{
+    width: 20%;
+   height: 200px;
+   display: inline-block;
+   vertical-align: top;
+   color: #b9b9b9;
+   list-style-type: none;
+}
+
+.container article section4{
+    width: 20%;
+   height: 200px;
+   display: inline-block;
+   vertical-align: top;
+   color: #b9b9b9;
+   list-style-type: none;
+
+}
+.container article section1 h4{
+    color: #000;
+}
+
+
+
+.container article section2 h4{
+    color: #000;
+}
+
+
+.container article section3 h4{
+    color: #000;
+}
+
+
+
+.container article section4 h4{
+    color: #000;
+}
+
+
+.contaner article section li{
+    width: 80%;
+   height: 30px;
+   display: block;
+   text-align: center;
+   margin: 3px auto;
+   border-bottom: 2px solid #fff;
+}
+
+.container .section{
+    width: 100%;
+    min-height: 400px;
+    background-image: url(punch\ images/5.jpg);
+    color: #fff;
+    border: 2px solid #000;
+}
+.container .section h1{
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.container .section h4{
+    text-align: center;
+    list-style-type: none;
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 90px;
+    font-size: 13px;
+}
+.container .section span{
+    width: 150px;
+     height: 30px;
+     color: #000;
+   display: inline-block;
+   vertical-align: top;
+   border-radius:6px;
+   padding-top: 5px; 
+   text-align: center;
+     color: #fff;
+     border: 2px solid #fff;
+     margin-left: 100px;
+}
+.container .box{
+    width: 100%;
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+    }
+ .container .box h1{
+     text-align: center;
+ }
+ .container .box img{
+     width: 150px;
+     height: 150px;
+     border: 1px solid#000;
+     border-radius: 50%;
+ }
+ .container .box li{
+     color: #b9b9b9;
+     list-style-type: none;
+ }
+ .container .box h3{
+     color: #000;
+ } 
+ .container .box h4{
+     color: yellow;
+ }
+
+ .container .bag{
+    width: 100%;
+    min-height: 400px;
+    display: inline-block;
+    background-image: url(punch\ images/5.jpg);
+    background-repeat: no-repeat;
+   
+} 
+.container .bag h1{
+    text-align: center;
+    color: #fff;
+}
+.container .bag img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding-left: 20px;
+ }
+
+
+
+    .container .bag p{
+  padding-left: 80px;
+}
+
+
+.container .boy{
+    width: 99.5%;
+    height: 150px;
+}
+.container .boy h1{
+    text-align: center;
+    font-size: 50px;
+} 
+.container .boy form{
+    padding-left: 50px;
+    display: inline-block;
+    list-style-type: none;
+}
+.container .boy input{
+    width: 450px;
+    height: 50px;
+    text-align: left;
+    display: inline-block;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: -20px;
+}
+
+.container .footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: #0f1316;
+    display: inline-block;
+    color: white;
+}
+.container .footer section{
+   width: 23%;
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 80px;
+  line-height: 30px;
+}
+.contaner .footer section li{
+   width: 10%;
+  min-height: 30px;
+  border: 2px solid #fff;
+  margin-left: 5px;
+}
+
+.contaner .footer section li i{
+    color: blue;
+}
+
+.circle-icon{
+background-color: rgb(182, 16, 16);
+padding: 5px;
+border-radius: 50%;
+}
+
+.circle-icon1{
+    background-color: rgb(58, 58, 240);
+    padding: 5px;
+    border-radius: 50%;
+    }
+
+    .circle-icon2{
+        background-color:rgb(9, 186, 240);
+        padding: 5px;
+        border-radius: 50%;
+        }
+
+        .circle-icon3{
+            background-color: rgba(241, 28, 28, 0.932);
+            padding: 5px;
+            border-radius: 50%;
+            }
+
+            .circle-icon4{
+                background-color:purple;
+                padding: 5px;
+                border-radius: 50%;
+                }
+
+                .punch{
+                    width: 100%;
+                    height: 300px;
+                    display: inline-block;
+                }
+
+                .punch img{
+                    width: 30%;
+                    height: 200px;
+                    padding: 20px;
+                    display: inline-block;
+                }
+                .punch1{
+                    width: 26%;
+                    height: 230px;
+                    display: inline-block;
+                  margin-top: 20px;
+                }
+                
+                .punch2{
+                    width: 100%;
+                   min-height: 450px;
+                    display: inline-block;
+                   padding: 20px;
+                }
+               
+                .punch2 h1{
+                    text-align: center;
+                }
+
+                .punch3{
+                    width: 44%;
+                    height: 450px;
+                    display: inline-block;
+                    margin-right: 33px;
+                    
+                }
+
+                .punch3 img{
+                    width: 100%;
+                    height: 300px;
+                }
+
+                .punch3 span{
+                    color: yellow;
+                font-size: 20px;
+                }
+
+                .punch3 p{
+                    line-height: 30px;
+                }
+                .punch4{
+                    width: 44%;
+                    height: 450px;
+                    display: inline-block;
+                    margin-left: 100px;
+                }
+
+                .punch4 img{
+                    width: 100%;
+                    height: 300px;
+                }
+
+                .punch4 span{
+                    color: yellow;
+                    font-size: 20px;
+                }
+
+                .punch4 p{
+                    line-height: 30px;
+                }
